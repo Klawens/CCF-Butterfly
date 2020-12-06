@@ -1,0 +1,7 @@
+UniverseNet train:
+python ./tools/train.py ./modified_configs/c101.py --work-dir c101 --no-validate
+./tools/dist_train.sh ./modified_configs/c101.py {gpu_num} --work-dir c101 --no-validate
+UniverseNet test:
+python ./tools/test.py modified_configs/c101.py  c101/epoch_12.pth  --format-only --options "jsonfile_prefix=./results"
+./tools/dist_test.sh modified_configs/c101.py  c101/epoch_12.pth {gpu_num} --format-only --options "jsonfile_prefix=./results"
+
