@@ -2,6 +2,7 @@
 - [Butterfly](https://www.datafountain.cn/competitions/481)
 ### Using cascade rcnn, the config file is in /modified_configs/c101.py
 ### the dataset can be download from (http://www.sciencedb.cn/dataSet/handle/706)
+### follow the ./hotline to go!
 
 # UniverseNet
 
