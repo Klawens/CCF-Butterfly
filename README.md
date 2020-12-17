@@ -1,4 +1,4 @@
-### This is my solution to the CCF training competition
+### This is my solution for the CCF training competition
 - [Butterfly](https://www.datafountain.cn/competitions/481)
 ### Using cascade rcnn, the config file is in /modified_configs/c101.py
 ### the dataset can be download from (http://www.sciencedb.cn/dataSet/handle/706)
